@@ -6,38 +6,39 @@ Authors@R: c(
   person("Fernando", "Corr\\u00EAa", role = c("aut")),
   person("Julio", "Trecenti", , "j@jtrecenti.com", c("aut")),
   person("ABJ", role = c("cph", "fnd")))
-Description: A simple interface that allows you to download first and second degree lawsuits from Brazil's multiple e-SAJ portals.
+Description: A simple interface that allows you to download first and second
+   degree lawsuits from Brazil's multiple e-SAJ portals.
 Depends: R (>= 3.2.3)
 License: GPL-2
 Imports:
-magrittr,
-captchasaj,
-dplyr,
-httr,
-janitor,
-jsonlite,
-lubridate,
-readr,
-rvest,
-stringr,
-tidyr,
-xml2,
-rlang,
-purrr,
-abjutils,
-progress,
-tibble,
-magick,
-tesseract,
-V8,
-decryptr
-Remotes:
-jtrecenti/captchasaj,
-decryptr/decryptr
-Suggests:
-knitr,
-rmarkdown,
-testthat
+  magrittr,
+  captchasaj,
+  dplyr,
+  httr,
+  janitor,
+  jsonlite,
+  lubridate,
+  readr,
+  rvest,
+  stringr,
+  tidyr,
+  xml2,
+  rlang,
+  purrr,
+  abjutils,
+  progress,
+  tibble,
+  magick,
+  tesseract,
+  V8,
+  decryptr
+  Remotes:
+  jtrecenti/captchasaj,
+  decryptr/decryptr
+  Suggests:
+  knitr,
+  rmarkdown,
+  testthat
 VignetteBuilder: knitr
 LazyData: true
 RoxygenNote: 6.0.1
