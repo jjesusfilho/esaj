@@ -6,8 +6,7 @@ Authors@R: c(
   person("Fernando", "Corr\\u00EAa", role = c("aut")),
   person("Julio", "Trecenti", , "j@jtrecenti.com", c("aut")),
   person("ABJ", role = c("cph", "fnd")))
-Description: A simple interface that allows you to download first and second
-   degree lawsuits from Brazil's multiple e-SAJ portals.
+Description: A simple interface that allows you to download first and second degree lawsuits from Brazil multiple e-SAJ portals.
 Depends: R (>= 3.2.3)
 License: GPL-2
 Imports:
