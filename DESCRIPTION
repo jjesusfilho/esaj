@@ -3,42 +3,42 @@ Title: A scraper for all e-SAJ systems
 Version: 0.1.1.9000
 Authors@R: c(
   person("Caio", "Lente", , "ctlente@gmail.com", role = c("aut", "cre")),
-  person("Fernando", "Corr\u00EAa", role = c("aut")),
+  person("Fernando", "Corr\\u00EAa", role = c("aut")),
   person("Julio", "Trecenti", , "j@jtrecenti.com", c("aut")),
   person("ABJ", role = c("cph", "fnd")))
 Description: A simple interface that allows you to download first and second
-  degree lawsuits from Brazil multiple e-SAJ portals.
+degree lawsuits from Brazil's multiple e-SAJ portals.
 Depends: R (>= 3.2.3)
 License: GPL-2
 Imports:
-  magrittr,
-  captchasaj,
-  dplyr,
-  httr,
-  janitor,
-  jsonlite,
-  lubridate,
-  readr,
-  rvest,
-  stringr,
-  tidyr,
-  xml2,
-  rlang,
-  purrr,
-  abjutils,
-  progress,
-  tibble,
-  magick,
-  tesseract,
-  V8,
-  decryptr
+magrittr,
+captchasaj,
+dplyr,
+httr,
+janitor,
+jsonlite,
+lubridate,
+readr,
+rvest,
+stringr,
+tidyr,
+xml2,
+rlang,
+purrr,
+abjutils,
+progress,
+tibble,
+magick,
+tesseract,
+V8,
+decryptr
 Remotes:
-  jtrecenti/captchasaj,
-  decryptr/decryptr
+jtrecenti/captchasaj,
+decryptr/decryptr
 Suggests:
-  knitr,
-  rmarkdown,
-  testthat
+knitr,
+rmarkdown,
+testthat
 VignetteBuilder: knitr
 LazyData: true
 RoxygenNote: 6.0.1
